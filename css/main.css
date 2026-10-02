@@ -1,0 +1,256 @@
+@import url(fonts.css);
+
+body  {
+  font-family: "Manrope", sans-serif;
+  background-color: #ffffff;
+}
+
+.sticky-footer {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1170px;
+}
+
+.header {
+  padding: 40px 0 41px;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__list {
+  display: flex;
+  gap: 60px;
+}
+.header__list-link {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #000000;
+  transition: color 0.3s ease-in;
+}
+
+.header__list-link:hover {
+  color: #68c5d8;
+}
+
+.header__list-link:focus {
+  outline: none;
+}
+
+.header__list-link:focus-visible {
+  color: #619ea8;
+  outline: 2px solid #81b4bd;
+  outline-offset: 2px;
+}
+
+.header__list-link:active {
+  color: #81b4bd;
+}
+.intro {
+  padding-bottom: 45px;
+  color: #ffffff;
+}
+
+.intro__wrapper {
+  display: flex;
+  align-items: center;
+  padding-left: 70px;
+  position: relative;
+  min-height: 500px;
+  background-image: url(../img/intro-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 40px;
+  background-size: cover;
+}
+.intro__wrapper::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 40px;
+  background: rgba(88, 184, 201, 0.1);
+}
+
+.intro__title {
+  margin-bottom: 10px;
+  font-size: 60px;
+  font-weight: 800;
+  line-height: 82px;
+}
+
+.intro__subtitle {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 33px;
+}
+
+.travels {
+  padding: 45px 0 90px;
+}
+.travels__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.travels__content {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.travels__img-wrap {
+  position: relative;
+  border-radius: 40px;
+  overflow: hidden;
+}
+.travels__img-wrap::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(88, 184, 201, 0.1);
+}
+
+.travels__img {
+  object-fit: cover;
+}
+
+.travels__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 20px;
+  max-width: 550px;
+  color: #000000;
+}
+.travels__title {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 1;
+}
+.travels__title-span {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 1;
+  color: #81b4bd;
+}
+.travels__desc {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.8;
+}
+a.travels__link {
+  width: fit-content;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 25px;
+  color: #81B4BD;
+  text-decoration: underline;
+  transition: color 0.3s ease-in;
+}
+
+.travels__link:hover {
+  color: #68C5D8;
+}
+
+.travels__link:focus {
+  outline: none;
+}
+
+.travels__link:focus-visible {
+  color: #619EA8;
+  outline: 2px solid #81b4bd;
+  outline-offset: 2px;
+}
+
+.travels__link:active {
+  color: #81B4BD;
+}
+
+.footer {
+  margin-top: auto;
+  padding: 60px 0;
+  background-color: #111111;
+}
+.footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__copyright {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.8;
+  color: rgba(255, 255, 255, 0.3);
+}
+.footer__contacts {
+  text-align: right;
+}
+
+.footer__tel-link {
+  margin-left: auto;
+  width: fit-content;
+  display: block;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #ffffff;
+  transition: color .3s ease-in;
+}
+
+.footer__tel-link:hover {
+  color: #68C5D8;
+}
+.footer__tel-link:focus-visible {
+  outline: 2px solid #81B4BD;
+  outline-offset: 2px;
+}
+.footer__tel-link:active {
+  color: #81B4BD;
+}
+
+.footer__mail-link {
+  margin-left: auto;
+  width: fit-content;
+  margin-bottom: 10px;
+  display: block;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #00BDA6;
+  transition: color .3s ease-in;
+
+}
+
+.footer__mail-link:hover {
+  color: #00d4bc;
+}
+.footer__mail-link:focus-visible {
+  outline: 2px solid #81b4bd;
+  outline-offset: 2px;
+}
+.footer__mail-link:active {
+  color: #007A6C;
+}
+
+.footer__adress-text {
+font-size: 14px;
+font-weight: 400;
+line-height: 1.5;
+color: rgba(255, 255, 255, 0.5);
+}
+
