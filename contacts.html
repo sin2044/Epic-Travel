@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Контакты — Туристическое агенство ЭпикТрэвел</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/contacts.css" />
+    <link rel="icon" type="image/x-icon" href="./img/favicons/favicon.svg" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/favicons/apple-touch-icon.png"/>
+  </head>
+  <body class="sticky-footer">
+    <header class="header header__bg">
+      <div class="container">
+        <div class="header__wrapper">
+          <div class="header__logo">
+            <a href="index.html" class="header__logo-link">
+              <img
+                class="header__logo-img"
+                src="./img/logo.svg"
+                alt="Логотип компании"
+              />
+            </a>
+          </div>
+          <nav class="header__nav">
+            <ul class="header__list">
+              <li class="header__list-item">
+                <a href="index.html" class="header__list-link"> Главная </a>
+              </li>
+
+              <li class="header__list-list-item">
+                <a href="tours.html" class="header__list-link"> Туры </a>
+              </li>
+
+              <li class="header__list-item">
+                <a href="about.html" class="header__list-link"> О компании </a>
+              </li>
+
+              <li class="header__list-item">
+                <a href="contacts.html" class="header__list-link active">
+                  Контакты
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="contacts">
+        <div class="container">
+          <div class="contacts__wrapper">
+            <h1 class="title">Контакты</h1>
+            <div class="contacts__content-wrap">
+              <form action="#" class="form">
+                <h2 class="form__title">Заявка на подбор тура</h2>
+                <div class="form__group">
+                  <h3 class="form__group-title">Личные данные</h3>
+                  <div class="form__inputs">
+                    <input
+                      type="text"
+                      name="name"
+                      class="form__input"
+                      placeholder="Введите имя"
+                    />
+                    <input
+                      type="tel"
+                      name="phone"
+                      class="form__input width-50"
+                      placeholder="Телефон"
+                    />
+                    <input
+                      type="email"
+                      name="email"
+                      class="form__input width-50"
+                      placeholder="Email"
+                    />
+                  </div>
+                </div>
+
+                <div class="form__group">
+                  <h3 class="form__group-title">Количество человек для тура</h3>
+                  <ul class="form__radio-list">
+                    <li class="form__radio-item">
+                      <label class="form__label">
+                        <input
+                          type="radio"
+                          name="people-count"
+                          class="form__real-radio visually-hidden"
+                          value="2-4"
+                        />
+                        <span class="form__custom-radio"></span>
+                        2-4 человека
+                      </label>
+                    </li>
+                    <li class="form__radio-item">
+                      <label class="form__label">
+                        <input
+                          type="radio"
+                          name="people-count"
+                          class="form__real-radio visually-hidden"
+                          value="5-10"
+                          checked
+                        />
+                        <span class="form__custom-radio"></span>
+                        5-10 человек
+                      </label>
+                    </li>
+                    <li class="form__radio-item">
+                      <label class="form__label">
+                        <input
+                          type="radio"
+                          name="people-count"
+                          class="form__real-radio visually-hidden"
+                          value="11+"
+                        />
+                        <span class="form__custom-radio"></span>
+                        11 человек и более
+                      </label>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="form__group">
+                  <h3 class="form__group-title">
+                    Какие направления вам интересны
+                  </h3>
+                  <ul class="form__checkbox-list">
+                    <li class="form__checkbox-item">
+                      <label class="form__label">
+                        <input
+                          type="checkbox"
+                          class="form__real-checkbox visually-hidden"
+                          value="tracking"
+                        />
+                        <span class="form__custom-checkbox"></span>
+                        Трекинг туры, походы по горам и пересеченной местности.
+                      </label>
+                    </li>
+                    <li class="form__checkbox-item">
+                      <label class="form__label">
+                        <input
+                          type="checkbox"
+                          class="form__real-checkbox visually-hidden"
+                          value="mounting"
+                        />
+                        <span class="form__custom-checkbox"></span>
+                        Восхождения на вершины.
+                      </label>
+                    </li>
+                    <li class="form__checkbox-item">
+                      <label class="form__label">
+                        <input
+                          type="checkbox"
+                          class="form__real-checkbox visually-hidden"
+                          checked
+                        />
+                        <span class="form__custom-checkbox"></span>
+                        Экзотические джунгли, вулканы.
+                      </label>
+                    </li>
+                    <li class="form__checkbox-item">
+                      <label class="form__label">
+                        <input
+                          type="checkbox"
+                          class="form__real-checkbox visually-hidden"
+                          value="combine"
+                        />
+                        <span class="form__custom-checkbox"></span>
+                        Комбинированные: море, горы, города, лес.
+                      </label>
+                    </li>
+                  </ul>
+                </div>
+                <button class="form__btn" type="submit">
+                  Отправить заявку
+                </button>
+              </form>
+
+              <div class="contacts__content">
+                <div class="contacts__info">
+                  <h2 class="contacts__title">Телефон и адрес</h2>
+                  <address class="contacts__address">
+                    <ul class="contacts__list">
+                      <li class="contacts__item">
+                        <img
+                          src="./img/phone.svg"
+                          alt="Телефон"
+                          class="contacts__img"
+                        />
+                        <a href="tel:+79054561234" class="contacts__link">
+                          +7 (905) 456-12-34
+                        </a>
+                      </li>
+                      <li class="contacts__item">
+                        <img
+                          src="./img/mail.svg"
+                          alt="Емеил"
+                          class="contacts__img"
+                        />
+                        <a
+                          href="mailto:info@epictravel.ru"
+                          class="contacts__link"
+                        >
+                          info@epictravel.ru
+                        </a>
+                      </li>
+                      <li class="contacts__item">
+                        <img
+                          src="img/map.svg"
+                          alt="Карта"
+                          class="contacts__img"
+                        />
+                        <p class="contacts__address-text">
+                          г. Москва, Рязанский проспект 54, офис 112.
+                        </p>
+                      </li>
+                    </ul>
+                  </address>
+                </div>
+                <div class="contacts__map">
+                  <h2 class="contacts__title">Карта</h2>
+
+                  <div class="contacts__map-wrap">
+                    <iframe
+                      src="https://yandex.ru/map-widget/v1/?ll=37.795511%2C55.715900&z=16&pt=37.795511%2C55.715900"
+                      width="470"
+                      height="345"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__wrapper">
+          <div class="footer__copyright">
+            <p class="footer__copyright-text">
+              2024 © ЭпикТрэвел.<br />Все права защищены
+            </p>
+          </div>
+          <address class="footer__contacts">
+            <a href="tel:+79054561234" class="footer__tel-link">
+              +7 (905) 456-12-34
+            </a>
+            <a href="mailto:info@epictravel.ru" class="footer__mail-link">
+              info@epictravel.ru
+            </a>
+            <p class="footer__address-text">
+              г. Москва, Рязанский проспект 54, офис 112
+            </p>
+          </address>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

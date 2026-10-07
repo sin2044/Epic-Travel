@@ -5,6 +5,16 @@ body  {
   background-color: #ffffff;
 }
 
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
 
 .sticky-footer {
   min-height: 100vh;
@@ -15,6 +25,41 @@ body  {
 .container {
   margin: 0 auto;
   max-width: 1170px;
+}
+
+.title {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 1;
+  color: #000000;
+  margin-bottom: 60px;
+}
+
+a.link {
+  width: fit-content;
+  font-weight: 500;
+  color: #81B4BD;
+  text-decoration: underline;
+  transition: color .3s ease-in;
+}
+
+.link:hover {
+  color: #68C5D8;
+}
+
+.link:focus {
+  outline: none;
+}
+
+.link:focus-visible {
+  color: #619EA8;
+  outline: 2px solid #81B4BD;
+  outline-offset: 2px;
+}
+
+.link:active {
+  color: #81B4BD;
 }
 
 .header {
