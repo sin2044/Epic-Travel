@@ -5,14 +5,6 @@
   padding: 0 100px;
 }
 
-.about__title {
-  margin-bottom: 40px;
-  text-align: center;
-  font-size: 48px;
-  font-weight: 800;
-  line-height: 1;
-  color: #000000;
-}
 .about__content {
   display: flex;
   flex-direction: column;
