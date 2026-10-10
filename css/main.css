@@ -1,6 +1,5 @@
 
 .intro {
-  padding-bottom: 45px;
   color: #ffffff;
 }
 
@@ -41,7 +40,7 @@
 }
 
 .travels {
-  padding: 45px 0 90px;
+  padding: 90px 0;
 }
 .travels__wrapper {
   display: flex;

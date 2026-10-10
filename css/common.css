@@ -15,6 +15,9 @@ body  {
   width: 1px;
 }
 
+.mobile-burger {
+  display: none;
+}
 
 .sticky-footer {
   min-height: 100vh;
@@ -22,9 +25,11 @@ body  {
   flex-direction: column;
 }
 
+
 .container {
   margin: 0 auto;
-  max-width: 1170px;
+  padding: 0 15px;
+  max-width: 1200px;
 }
 
 .title {
@@ -63,7 +68,7 @@ a.link {
 }
 
 .header {
-  padding: 40px 0 41px;
+  padding: 40px 0;
 }
 
 .header__bg {
@@ -109,6 +114,8 @@ a.link {
   color: #81b4bd;
 }
 
+
+
 .footer {
   margin-top: auto;
   padding: 60px 0;
@@ -130,9 +137,6 @@ a.link {
 }
 
 .footer__tel-link {
-  margin-left: auto;
-  width: fit-content;
-  display: block;
   font-size: 24px;
   font-weight: 500;
   line-height: 1.5;

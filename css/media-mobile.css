@@ -1,0 +1,59 @@
+@media (max-width: 767px) {
+
+  .mobile-burger {
+    display: block;
+  }
+  .container {
+    width: 100%;
+  }
+
+  .header__list {
+    display: none;
+  }
+
+  .intro__wrapper {
+    padding: 40px 0 0 0;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url('../img/intro-bg-mobile.jpg');
+    text-align: center;
+
+  }
+
+  .intro__title {
+    font-size: 34px;
+    line-height: 46px;
+  }
+
+  .intro__subtitle {
+    font-size: 14px;
+    line-height: 19px;
+  }
+  
+  .travels {
+    padding: 40px 0;
+  }
+  .travels__wrapper {
+    gap: 40px;
+  }
+
+  .travels__content {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .travels__reverse {
+    flex-direction: column-reverse;
+    
+  }
+
+  .travels__text {
+    max-width: 290px;
+  }
+
+  .travels__title {
+    font-size: 28px;
+  }
+
+
+}

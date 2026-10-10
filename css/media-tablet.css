@@ -1,0 +1,87 @@
+@media (max-width: 1199px) {
+  .desktop-only {
+    display: none;
+  }
+  .container {
+    max-width: 768px;
+  }
+
+  .header__list {
+    gap: 30px;
+  }
+
+  .intro__wrapper {
+    padding-left: 20px;
+    min-height: 350px;
+    border-radius: 20px;
+  }
+
+  .intro__wrapper::before {
+    border-radius: 20px;
+  }
+
+  .intro__title {
+    margin-bottom: 0;
+    font-size: 40px;
+    line-height: 55px;
+  }
+
+  .intro__subtitle {
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .travels {
+    padding: 60px 0 ;
+  }
+
+  .travels__content {
+    gap: 30px;
+  }
+
+  .travels__img-wrap {
+    border-radius: 20px;
+  }
+
+  .travels__img-wrap::before {
+    border-radius: 20px;
+  }
+
+  .travels__text {
+    max-width: 354px;
+    gap: 10px;
+  }
+
+  .travels__title {
+    font-size: 38px;
+  }
+
+  .travels__desc {
+    font-size: 14px;
+  }
+
+  .travels__link {
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .footer {
+    padding: 40px 0;
+  }
+
+  .footer__wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 30px;
+  }
+
+  .footer__contacts {
+    text-align: left;
+  }
+
+  .footer__mail-link {
+    margin-left: 0;
+  }
+}

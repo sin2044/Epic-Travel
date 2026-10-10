@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/common.css" />
     <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/media-tablet.css" />
+    <link rel="stylesheet" href="./css/media-mobile.css" />
     <link rel="icon" type="image/x-icon" href="./img/favicons/favicon.svg" />
     <link rel="apple-touch-icon" sizes="180x180" href="./img/favicons/apple-touch-icon.png"/>
   </head>
@@ -41,6 +43,13 @@
                 <a href="contacts.html" class="header__list-link"> Контакты </a>
               </li>
             </ul>
+            <button class="mobile-burger" type="button">
+              <img
+                src="img/burger-btn.svg"
+                alt="кнопка открытия бургер меню"
+                class="mobile-btn"
+              />
+            </button>
           </nav>
         </div>
       </div>
@@ -83,7 +92,7 @@
               </div>
             </div>
 
-            <div class="travels__content">
+            <div class="travels__content travels__reverse">
               <div class="travels__text">
                 <h2 class="travels__title">
                   <span class="travels__title-span"> Впечатляющие </span>
@@ -116,7 +125,7 @@
         <div class="footer__wrapper">
           <div class="footer__copyright">
             <p class="footer__copyright-text">
-              2024 © ЭпикТрэвел.<br />Все права защищены
+              2024 © ЭпикТрэвел.<br class="desktop-only" />Все права защищены
             </p>
           </div>
           <address class="footer__contacts">
