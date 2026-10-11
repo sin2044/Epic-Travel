@@ -15,8 +15,8 @@ btn.addEventListener("click", function () {
 
 
   if (btn.classList.contains("open")) {
-    mobileBtnImg.src = "/img/burger-close.svg";
+    mobileBtnImg.src = "../img/burger-close.svg";
   } else {
-    mobileBtnImg.src = "/img/burger-btn.svg";
+    mobileBtnImg.src = "../img/burger-btn.svg";
   }
 });
