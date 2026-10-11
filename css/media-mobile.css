@@ -1,8 +1,6 @@
 @media (max-width: 767px) {
 
-  .mobile-burger {
-    display: block;
-  }
+
   .container {
     width: 100%;
   }
@@ -56,4 +54,18 @@
   }
 
 
+
+
+
+
+
+
+
+
+
+  .contacts__content-wrap {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 40px;
+  }
 }

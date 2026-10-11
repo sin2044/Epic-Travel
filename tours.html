@@ -10,14 +10,11 @@
     <link rel="stylesheet" href="./css/media-tablet.css" />
     <link rel="stylesheet" href="./css/media-mobile.css" />
     <link rel="icon" type="image/x-icon" href="./img/favicons/favicon.svg" />
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="./img/favicons/apple-touch-icon.png"
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/favicons/apple-touch-icon.png"
     />
   </head>
   <body class="sticky-footer">
-    <header class="header header__bg">
+    <header class="header header__bg" id="header">
       <div class="container">
         <div class="header__wrapper">
           <div class="header__logo">
@@ -35,7 +32,7 @@
                 <a href="index.html" class="header__list-link"> Главная </a>
               </li>
 
-              <li class="header__list-list-item">
+              <li class="header__list-item">
                 <a href="tours.html" class="header__list-link active"> Туры </a>
               </li>
 
@@ -47,10 +44,39 @@
                 <a href="contacts.html" class="header__list-link"> Контакты </a>
               </li>
             </ul>
+            <button class="burger__btn" id="mobile-burger" type="button">
+              <img
+                id="mobile-burger-img"
+                src="img/burger-btn.svg"
+                alt="кнопка открытия бургер меню"
+                class="burger__btn-img"
+              />
+            </button>
           </nav>
         </div>
       </div>
     </header>
+
+    <section class="mobile__nav" id="mobile-nav">
+      <ul class="mobile__list">
+        <li class="mobile__list-item">
+          <a href="index.html" class="mobile__list-link"> Главная </a>
+        </li>
+
+        <li class="mobile__list-item">
+          <a href="tours.html" class="mobile__list-link active"> Туры </a>
+        </li>
+
+        <li class="mobile__list-item">
+          <a href="about.html" class="mobile__list-link"> О компании </a>
+        </li>
+
+        <li class="mobile__list-item">
+          <a href="contacts.html" class="mobile__list-link"> Контакты </a>
+        </li>
+      </ul>
+    </section>
+
     <main class="main">
       <section class="tours">
         <div class="container">
@@ -172,5 +198,7 @@
         </div>
       </div>
     </footer>
+
+    <script src="./js/main.js"></script>
   </body>
 </html>

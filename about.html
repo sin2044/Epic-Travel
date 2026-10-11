@@ -7,13 +7,17 @@
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/common.css" />
     <link rel="stylesheet" href="./css/about.css" />
-    <link rel="stylesheet" href="./css/media-tablet.css">
-    <link rel="stylesheet" href="./css/media-mobile.css">
+    <link rel="stylesheet" href="./css/media-tablet.css" />
+    <link rel="stylesheet" href="./css/media-mobile.css" />
     <link rel="icon" type="image/x-icon" href="./img/favicons/favicon.svg" />
-    <link rel="apple-touch-icon" sizes="180x180" href="./img/favicons/apple-touch-icon.png"/>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./img/favicons/apple-touch-icon.png"
+    />
   </head>
   <body class="sticky-footer">
-    <header class="header header__bg">
+    <header class="header header__bg" id="header">
       <div class="header__container container">
         <div class="header__wrapper">
           <div class="header__logo">
@@ -28,27 +32,56 @@
           <nav class="header__nav">
             <ul class="header__list">
               <li class="header__list-item">
-                <a href="index.html" class="header__list-link"> Главная </a>
+                <a href="index.html" class="header__list-link">Главная</a>
               </li>
 
               <li class="header__list-item">
-                <a href="tours.html" class="header__list-link"> Туры </a>
+                <a href="tours.html" class="header__list-link">Туры</a>
               </li>
 
               <li class="header__list-item">
                 <a href="about.html" class="header__list-link active">
                   О компании
                 </a>
-              </li> 
+              </li>
 
               <li class="header__list-item">
                 <a href="contacts.html" class="header__list-link"> Контакты </a>
               </li>
             </ul>
+            <button class="burger__btn" id="mobile-burger" type="button">
+              <img
+                id="mobile-burger-img"
+                src="img/burger-btn.svg"
+                alt="кнопка открытия бургер меню"
+                class="burger__btn-img"
+              />
+            </button>
           </nav>
         </div>
       </div>
     </header>
+
+    <section class="mobile__nav" id="mobile-nav">
+      <ul class="mobile__list">
+        <li class="mobile__list-item">
+          <a href="index.html" class="mobile__list-link"> Главная </a>
+        </li>
+
+        <li class="mobile__list-item">
+          <a href="tours.html" class="mobile__list-link"> Туры </a>
+        </li>
+
+        <li class="mobile__list-item">
+          <a href="about.html" class="mobile__list-link active"> О компании </a>
+        </li>
+
+        <li class="mobile__list-item">
+          <a href="contacts.html" class="mobile__list-link"> Контакты </a>
+        </li>
+      </ul>
+    </section>
+
     <main class="main">
       <section class="about">
         <div class="about__container container">
@@ -117,5 +150,6 @@
         </div>
       </div>
     </footer>
+    <script src="./js/main.js"></script>
   </body>
 </html>

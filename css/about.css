@@ -2,7 +2,8 @@
   padding: 90px 0;
 }
 .about__container {
-  padding: 0 100px;
+  max-width: 1000px;
+
 }
 
 .about__content {
