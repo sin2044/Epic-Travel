@@ -6,6 +6,7 @@
     max-width: 768px;
   }
 
+
   .header__list {
     gap: 30px;
   }
@@ -65,9 +66,17 @@
     line-height: 19px;
   }
 
-  .footer {
-    padding: 40px 0;
-  }
+.tours__cards {
+  row-gap: 40px;
+}
+
+.tours__card {
+  width: 354px;
+}
+
+.tours__card-content {
+  max-width: 100%;
+}
 
   .footer__wrapper {
     display: flex;
@@ -84,4 +93,5 @@
   .footer__mail-link {
     margin-left: 0;
   }
+
 }

@@ -53,7 +53,22 @@
     font-size: 28px;
   }
 
+  .tours__cards {
+    row-gap: 20px;
+  }
 
+  .tours__card-text {
+    font-size: 14px;
+
+  }
+
+  .tours__card-link {
+    font-size: 14px;
+    line-height: 19px;
+
+  }
+
+}
 
 
 
@@ -68,4 +83,3 @@
     flex-direction: column-reverse;
     gap: 40px;
   }
-}
