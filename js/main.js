@@ -9,7 +9,8 @@ btn.addEventListener("click", function () {
   btn.classList.toggle("open");
   mobileNav.classList.toggle("open");
   header.classList.toggle("header__white-bg");
-  document.body.classList.toggle("no-scroll");
+  // document.body.classList.toggle("no-scroll");
+  document.documentElement.classList.toggle("no-scroll");
 
 
 
