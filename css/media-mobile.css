@@ -1,6 +1,4 @@
 @media (max-width: 767px) {
-
-
   .container {
     width: 100%;
   }
@@ -13,9 +11,8 @@
     padding: 40px 0 0 0;
     justify-content: center;
     align-items: flex-start;
-    background-image: url('../img/intro-bg-mobile.jpg');
+    background-image: url("../img/intro-bg-mobile.jpg");
     text-align: center;
-
   }
 
   .intro__title {
@@ -27,7 +24,7 @@
     font-size: 14px;
     line-height: 19px;
   }
-  
+
   .travels {
     padding: 40px 0;
   }
@@ -42,7 +39,6 @@
 
   .travels__reverse {
     flex-direction: column-reverse;
-    
   }
 
   .travels__text {
@@ -59,13 +55,11 @@
 
   .tours__card-text {
     font-size: 14px;
-
   }
 
   .tours__card-link {
     font-size: 14px;
     line-height: 19px;
-
   }
 
   .about__content .about__text + .about__text {
@@ -80,18 +74,37 @@
     margin: 20px 0;
   }
 
-}
-
-
-
-
-
-
-
-
-
-  .contacts__content-wrap {
-    display: flex;
-    flex-direction: column-reverse;
-    gap: 40px;
+  .form {
+    padding: 15px;
   }
+
+  .form__title,
+  .contacts__title {
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .form__group {
+    width: 100%;
+  }
+
+  .form__group-title {
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .form__inputs {
+    flex-direction: column;
+  }
+
+  .form__input {
+    padding: 14px 10px;
+  }
+
+
+
+  .form__label {
+    font-size: 14px;
+    line-height: 19px;
+  }
+}

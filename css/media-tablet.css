@@ -83,6 +83,18 @@
   font-size: 16px;
 }
 
+.contacts__content-wrap {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 40px;
+
+}
+
+.form {
+  max-width: 100%;
+}
+
+
   .footer__wrapper {
     display: flex;
     flex-direction: column-reverse;
