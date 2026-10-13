@@ -68,6 +68,18 @@
 
   }
 
+  .about__content .about__text + .about__text {
+    margin-top: 14px;
+  }
+
+  .about__text {
+    font-size: 14px;
+  }
+
+  .about__img-wrap {
+    margin: 20px 0;
+  }
+
 }
 
 

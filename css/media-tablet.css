@@ -78,6 +78,11 @@
   max-width: 100%;
 }
 
+.about__text {
+  max-width: 738px;
+  font-size: 16px;
+}
+
   .footer__wrapper {
     display: flex;
     flex-direction: column-reverse;
