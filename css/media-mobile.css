@@ -1,6 +1,6 @@
 @media (max-width: 767px) {
   .container {
-    width: 100%;
+    width: 320px;
   }
 
   .header__list {

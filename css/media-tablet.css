@@ -71,10 +71,8 @@
 }
 
 .tours__card {
-  width: 0px;
-  min-width: 220px;
-  max-width: 290px;
-  flex: 1;
+  width: 354px;
+  
 }
 
 .tours__card-content {
