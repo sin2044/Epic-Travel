@@ -6,13 +6,21 @@
   .header__list {
     display: none;
   }
+  
+
 
   .intro__wrapper {
     padding: 40px 0 0 0;
     justify-content: center;
     align-items: flex-start;
-    background-image: url("../img/intro-bg-mobile.jpg");
+    background-image: url("../img/intro-bg.jpg");
     text-align: center;
+  }
+  @media (max-width: 320px) {
+    .intro__wrapper {
+      background-image: url("../img/intro-bg-mobile.jpg");
+    }
+    
   }
 
   .intro__title {
@@ -51,6 +59,7 @@
 
   .tours__cards {
     row-gap: 20px;
+    justify-content: center;
   }
 
   .tours__card-text {
