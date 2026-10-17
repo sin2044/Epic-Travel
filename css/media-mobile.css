@@ -13,15 +13,16 @@
     padding: 40px 0 0 0;
     justify-content: center;
     align-items: flex-start;
-    background-image: url("../img/intro-bg.jpg");
+    background-image: url("../img/intro-bg-mobile.jpg");
     text-align: center;
   }
-  @media (max-width: 320px) {
-    .intro__wrapper {
-      background-image: url("../img/intro-bg-mobile.jpg");
-    }
-    
+
+  @media (-webkit-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .intro__wrapper {
+    background-image: url("../img/intro-bg-mobile@2x.jpg");
   }
+  
+}
 
   .intro__title {
     font-size: 34px;

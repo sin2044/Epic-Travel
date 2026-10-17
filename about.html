@@ -10,7 +10,11 @@
     <link rel="stylesheet" href="./css/media-tablet.css" />
     <link rel="stylesheet" href="./css/media-mobile.css" />
     <link rel="icon" type="image/x-icon" href="./img/favicons/favicon.svg" />
-    <link rel="apple-touch-icon" sizes="180x180" href="./img/favicons/apple-touch-icon.png"/>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./img/favicons/apple-touch-icon.png"
+    />
   </head>
   <body class="sticky-footer">
     <header class="header header__bg" id="header">
@@ -72,7 +76,7 @@
           <a href="about.html" class="mobile__list-link active"> О компании </a>
         </li>
 
-        <li class="mobile__list-item"> 
+        <li class="mobile__list-item">
           <a href="contacts.html" class="mobile__list-link"> Контакты </a>
         </li>
       </ul>
@@ -95,11 +99,13 @@
               <div class="about__img-wrap">
                 <picture>
                   <source
-                    media="(max-width: 320px)"
-                    srcset="./img/about-mobile.jpg"
+                    media="max-width: 767px"
+                    srcset="./img/about-mobile.jpg
+                          ./img/about-mobile@2x.jpg 2x  "
                   />
                   <img
                     src="./img/about.jpg"
+                    srcset="./img/about@2x.jpg 2x"
                     alt="Катер, плывущий по реке"
                     class="about__img"
                   />
